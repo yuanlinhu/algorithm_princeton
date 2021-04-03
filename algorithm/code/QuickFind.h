@@ -5,6 +5,10 @@
 
 #define ArraySize 10
 
+
+/// <summary>
+/// 
+/// </summary>
 class QuickFind
 {
 public:
@@ -13,13 +17,43 @@ public:
 	bool isConnected(int p, int q);
 	void remakeArray();
 
-
 	void test();
 	void printArray();
 
 private:
 	int mArray[ArraySize];
 };
+
+
+
+
+/// <summary>
+/// 
+/// </summary>
+
+class QuickUnion
+{
+public:
+	QuickUnion();
+
+	bool isConnected(int p, int q);
+	void unionData(int p, int q);
+	void remakeArray();
+
+	void test();
+	void printArray();
+
+private:
+	int root(int i);
+
+private:
+	int mArray[ArraySize];
+};
+
+
+
+
+
 
 
 

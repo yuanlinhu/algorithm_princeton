@@ -20,3 +20,12 @@ void Util::printArray(int* arr, int num)
 
 	cout << endl;
 }
+
+
+void Util::remakeArray(int* arr, int num)
+{
+	for (int i = 0; i < num; ++i)
+	{
+		arr[i] = i;
+	}
+}

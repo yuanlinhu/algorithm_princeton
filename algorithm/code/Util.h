@@ -7,6 +7,8 @@ class Util
 {
 public:
 	static void printArray(int* arr, int num);
+
+	static void remakeArray(int* arr, int num);
 };
 
 
