@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\code\QuickFind.cpp" />
+    <ClCompile Include="..\code\Util.cpp" />
     <ClCompile Include="algorithm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\code\QuickFind.h" />
+    <ClInclude Include="..\code\Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

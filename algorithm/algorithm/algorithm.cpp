@@ -2,9 +2,14 @@
 //
 
 #include <iostream>
+#include "../code/QuickFind.h"
 
 int main()
 {
+    QuickFind fq;
+    fq.test();
+
+
     std::cout << "Hello World!\n";
 }
 
